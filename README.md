@@ -48,12 +48,8 @@ A classe `java.util.Locale` representa uma regiao geografica, politica ou cultur
 ```
 1. A aplicacao e iniciada
 2. O programa captura as configuracoes de Locale do sistema operacional
-3. Extrai informacoes como:
-   - Codigo do idioma
-   - Nome do idioma
-   - Codigo do pais
-   - Nome do pais
-4. Exibe todas as informacoes na interface grafica
+3. Extrai o idioma
+4. Exibe na interface gráfica
 ```
 
 ---
@@ -61,10 +57,7 @@ A classe `java.util.Locale` representa uma regiao geografica, politica ou cultur
 ## Funcionalidades
 
 - [x] Deteccao automatica do idioma do sistema
-- [x] Exibicao do codigo do idioma (ISO 639)
 - [x] Exibicao do nome do idioma por extenso
-- [x] Exibicao do codigo do pais (ISO 3166)
-- [x] Exibicao do nome do pais por extenso
 - [x] Interface grafica intuitiva com Swing JFrame
 - [x] Botao para atualizar informacoes
 
@@ -79,16 +72,9 @@ A classe `java.util.Locale` representa uma regiao geografica, politica ou cultur
 |                                               |
 |   Informacoes do Sistema                      |
 |   -------------------------                   |
-|                                               |
-|   Codigo do Idioma:    pt                     |
-|                                               |
+|                                               | 
 |   Nome do Idioma:      Portugues              |
 |                                               |
-|   Codigo do Pais:      BR                     |
-|                                               |
-|   Nome do Pais:        Brasil                 |
-|                                               |
-|   Locale Completo:     pt_BR                  |
 |                                               |
 +-----------------------------------------------+
 |            [ ATUALIZAR ]                      |
